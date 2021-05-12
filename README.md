@@ -62,7 +62,7 @@ program
 program.parse ();
 ```
 
-As you can see writing a simple CLI app is super easy, the producted app will be _tiny_ (~5kb), the app will automatically check for updates and notify the user if some are found, and bundling it will be a matter of running `npm i esbuild && npx specialist bundle bin/index.ts > dist/bin/index.js`.
+As you can see writing a simple CLI app is super easy, the producted app will be _tiny_ (~10kb), the app will automatically check for updates and notify the user if some are found, and bundling it will be a matter of running `npm i esbuild && npx specialist bundle bin/index.ts > dist/bin/index.js`.
 
 ## License
 
