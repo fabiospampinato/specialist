@@ -15,7 +15,7 @@ program
   .version ( version )
   .description ( 'A collection of commands for making great CLI apps.' )
   .command ( 'bundle [entry.js]' )
-  .description ( 'Bundle the entrypoint of your CLI with esbuild ' )
+  .description ( 'Bundle the entrypoint of your CLI with esbuild' )
   .action ( bundle );
 
 program.parse ();

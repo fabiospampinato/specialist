@@ -26,9 +26,9 @@ import {color} from 'specialist';
 // color.{bgBlack, bgRed, bgGreen, bgYellow, bgBlue, bgMagenta, bgCyan, bgWhite}
 // color.{dim, bold, hidden, italic, underline, strikethrough, reset}
 
-// It provides an "updater" function for enabling checks for updates
+// It provides the "updater" function from "tiny-updater"
+// https://github.com/fabiospampinato/tiny-updater
 import {updater} from 'specialist';
-// updater ({ name: 'my-package-name', version: 'my-package-version' });
 ```
 
 The following command line commands are provided:

@@ -1,9 +1,9 @@
 
 /* IMPORT */
 
+import updater from 'tiny-updater';
 import * as color from './color';
 import program from './program';
-import updater from './updater';
 
 /* EXPORT */
 

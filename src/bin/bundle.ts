@@ -24,7 +24,7 @@ const bundle = ( entry: string ): void => {
     ],
   });
 
-  if ( result.errors.length ) {
+  if ( result.errors?.length ) {
 
     console.error ( result.errors );
 
