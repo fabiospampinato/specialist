@@ -38,6 +38,32 @@ The following command line commands are provided:
 npx specialist bundle bin/index.ts > dist/bin/index.js
 ```
 
+## Example
+
+The following [example](https://github.com/fabiospampinato/specialist/blob/master/src/bin/index.ts) CLI app is the entrypoint of Specialist's own CLI app:
+
+```ts
+#!/usr/bin/env node
+
+import {program, updater} from 'specialist';
+import {name, version} from '../../package.json';
+import bundle from './bundle';
+
+updater ({ name, version });
+
+program
+  .name ( name )
+  .version ( version )
+  .description ( 'A collection of commands for making great CLI apps.' )
+  .command ( 'bundle [entry.js]' )
+  .description ( 'Bundle the entrypoint of your CLI with esbuild' )
+  .action ( bundle );
+
+program.parse ();
+```
+
+As you can see writing a simple CLI app is super easy, the producted app will be _tiny_ (~5kb), the app will automatically check for updates and notify the user if some are found, and bundling it will be a matter of running `npm i esbuild && npx specialist bundle bin/index.ts > dist/bin/index.js`.
+
 ## License
 
 MIT © Fabio Spampinato
