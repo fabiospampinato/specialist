@@ -1,7 +1,7 @@
 {
   "name": "specialist",
   "description": "A library that helps you write tiny, fast, bundled and beautiful CLI apps that can automatically check for updates.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "dist/src/index.js",
   "bin": "dist/src/bin/index.js",
   "types": "dist/src/index.d.ts",
