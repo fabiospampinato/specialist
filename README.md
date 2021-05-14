@@ -29,6 +29,9 @@ import {color} from 'specialist';
 // It provides the "updater" function from "tiny-updater"
 // https://github.com/fabiospampinato/tiny-updater
 import {updater} from 'specialist';
+
+// It exposes "minimist" as "parseArgv"
+import {parseArgv} from 'specialist';
 ```
 
 The following command line commands are provided:

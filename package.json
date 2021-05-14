@@ -41,12 +41,14 @@
   "dependencies": {
     "colorette": "^1.2.2",
     "commander": "^7.2.0",
+    "minimist": "^1.2.5",
     "tiny-updater": "^1.0.0"
   },
   "peerDependencies": {
     "esbuild": "*"
   },
   "devDependencies": {
+    "@types/minimist": "^1.2.1",
     "esbuild": "^0.11.20",
     "rimraf": "^3.0.0",
     "typescript": "^3.5.3",
