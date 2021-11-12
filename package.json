@@ -5,6 +5,7 @@
   "main": "dist/src/index.js",
   "bin": "dist/src/bin/index.js",
   "types": "dist/src/index.d.ts",
+  "sideEffects": false,
   "scripts": {
     "clean": "rimraf dist",
     "compile": "tsc --skipLibCheck && tstei",
