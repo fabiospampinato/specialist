@@ -40,8 +40,8 @@
     "node": ">=12.0.0"
   },
   "dependencies": {
-    "commander": "^7.2.0",
-    "minimist": "^1.2.6",
+    "commander": "7.2.0",
+    "minimist": "1.2.6",
     "tiny-colors": "^1.0.0",
     "tiny-updater": "^1.0.1"
   },
