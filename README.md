@@ -19,8 +19,8 @@ The following APIs are provided:
 // https://github.com/tj/commander.js
 import {program} from 'specialist';
 
-// It provides the simple color functions from Colorette
-// https://github.com/jorgebucaran/colorette
+// It provides the simple color functions from "tiny-colors"
+// https://github.com/fabiospampinato/tiny-colors
 import {color} from 'specialist';
 // color.{black, red, green, yellow, blue, magenta, cyan, white, gray}
 // color.{bgBlack, bgRed, bgGreen, bgYellow, bgBlue, bgMagenta, bgCyan, bgWhite}
@@ -31,6 +31,7 @@ import {color} from 'specialist';
 import {updater} from 'specialist';
 
 // It exposes "minimist" as "parseArgv"
+// https://github.com/substack/minimist
 import {parseArgv} from 'specialist';
 ```
 
