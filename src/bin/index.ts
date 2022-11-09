@@ -8,7 +8,7 @@ import bundle from './bundle';
 /* HELPERS */
 
 const name = 'spcialist';
-const version = '0.4.3';
+const version = '0.5.0';
 const description = 'A collection of commands for making great CLI apps.';
 
 /* MAIN */
