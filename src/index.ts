@@ -1,9 +1,9 @@
 
 /* IMPORT */
 
+import color from 'tiny-colors';
+import parseArgv from 'tiny-parse-argv';
 import updater from 'tiny-updater';
-import color from './color';
-import parseArgv from './parse_argv';
 import program from './program';
 
 /* EXPORT */

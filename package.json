@@ -1,5 +1,6 @@
 {
   "name": "specialist",
+  "repository": "github:fabiospampinato/specialist",
   "description": "A library that helps you write tiny, fast, bundled and beautiful CLI apps that can automatically check for updates.",
   "version": "0.4.3",
   "main": "dist/src/index.js",
@@ -7,22 +8,10 @@
   "types": "dist/src/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "clean": "rimraf dist",
-    "compile": "tsc --skipLibCheck && tstei",
-    "compile:watch": "tsc --skipLibCheck --watch",
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
     "prepublishOnly": "npm run clean && npm run compile"
-  },
-  "bugs": {
-    "url": "https://github.com/fabiospampinato/specialist/issues"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Fabio Spampinato",
-    "email": "spampinabio@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fabiospampinato/specialist.git"
   },
   "keywords": [
     "simple",
@@ -41,19 +30,17 @@
   },
   "dependencies": {
     "commander": "7.2.0",
-    "minimist": "1.2.6",
-    "tiny-colors": "^1.0.0",
-    "tiny-updater": "^1.0.1"
+    "tiny-colors": "^2.0.1",
+    "tiny-parse-argv": "^1.0.1",
+    "tiny-updater": "^2.0.0"
   },
   "peerDependencies": {
     "esbuild": "*"
   },
   "devDependencies": {
-    "@types/minimist": "^1.2.2",
-    "@types/node": "^17.0.23",
-    "esbuild": "^0.14.30",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.6.3",
-    "typescript-transform-export-interop": "^1.0.4"
+    "@types/node": "^18.11.9",
+    "esbuild": "^0.15.13",
+    "tsex": "^1.1.2",
+    "typescript": "^4.8.4"
   }
 }

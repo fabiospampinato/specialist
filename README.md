@@ -30,8 +30,8 @@ import {color} from 'specialist';
 // https://github.com/fabiospampinato/tiny-updater
 import {updater} from 'specialist';
 
-// It exposes "minimist" as "parseArgv"
-// https://github.com/substack/minimist
+// It exposes the "parseArgv" function from "tiny-parse-argv"
+// https://github.com/fabiospampinato/tiny-parse-argv
 import {parseArgv} from 'specialist';
 ```
 
