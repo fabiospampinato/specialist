@@ -5,7 +5,7 @@ import getCurrentVersion from 'get-current-version';
 
 /* MAIN */
 
-const version = getCurrentVersion ();
+const version = getCurrentVersion () || '0.0.0';
 
 /* EXPORT */
 
