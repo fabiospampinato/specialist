@@ -33,6 +33,10 @@ import {updater} from 'specialist';
 // It exposes the "parseArgv" function from "tiny-parse-argv"
 // https://github.com/fabiospampinato/tiny-parse-argv
 import {parseArgv} from 'specialist';
+
+// It exposes the current version number, from calling "get-current-version"
+// https://github.com/fabiospampinato/get-current-version
+import {version} from 'specialist';
 ```
 
 ## Example
