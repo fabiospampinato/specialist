@@ -27,7 +27,7 @@
     "easy"
   ],
   "dependencies": {
-    "tiny-bin": "^1.0.3",
+    "tiny-bin": "^1.0.4",
     "tiny-colors": "^2.0.1",
     "tiny-parse-argv": "^2.1.2",
     "tiny-updater": "^3.2.2"
