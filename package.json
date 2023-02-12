@@ -27,13 +27,13 @@
     "easy"
   ],
   "dependencies": {
-    "tiny-bin": "^1.0.4",
-    "tiny-colors": "^2.0.1",
+    "tiny-bin": "^1.2.1",
+    "tiny-colors": "^2.0.2",
     "tiny-parse-argv": "^2.1.2",
-    "tiny-updater": "^3.2.2"
+    "tiny-updater": "^3.2.3"
   },
   "devDependencies": {
-    "tsex": "^2.0.0",
+    "tsex": "^2.1.0",
     "typescript": "^4.9.5"
   }
 }
