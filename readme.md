@@ -24,6 +24,10 @@ import {color} from 'specialist';
 // color.{bgBlack, bgRed, bgGreen, bgYellow, bgBlue, bgMagenta, bgCyan, bgWhite}
 // color.{dim, bold, hidden, italic, underline, strikethrough, reset}
 
+// It provides a basic "exit" function, for exiting with visual consistency
+// Exiting with this function will look like how "tiny-bin" exits
+import {exit} from 'specialist';
+
 // It provides the "parseArgv" function from "tiny-parse-argv"
 // https://github.com/fabiospampinato/tiny-parse-argv
 import {parseArgv} from 'specialist';
