@@ -27,10 +27,10 @@
     "easy"
   ],
   "dependencies": {
-    "tiny-bin": "^1.7.0",
-    "tiny-colors": "^2.1.2",
-    "tiny-parse-argv": "^2.4.0",
-    "tiny-updater": "^3.5.1"
+    "tiny-bin": "^1.9.0",
+    "tiny-colors": "^2.2.1",
+    "tiny-parse-argv": "^2.6.0",
+    "tiny-updater": "^3.5.2"
   },
   "devDependencies": {
     "@types/node": "^20.4.6",
