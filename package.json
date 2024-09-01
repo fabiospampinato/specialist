@@ -2,7 +2,7 @@
   "name": "specialist",
   "repository": "github:fabiospampinato/specialist",
   "description": "A library that helps you write tiny, fast and beautiful CLI apps that can automatically check for updates.",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
