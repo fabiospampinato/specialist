@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/specialist",
   "description": "A library that helps you write tiny, fast and beautiful CLI apps that can automatically check for updates.",
   "license": "MIT",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
