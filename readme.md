@@ -5,7 +5,7 @@ A library that helps you write tiny, fast and beautiful CLI apps that can automa
 ## Install
 
 ```sh
-npm install --save specialist
+npm install specialist
 ```
 
 ## Usage
