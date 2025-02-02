@@ -2,6 +2,7 @@
   "name": "specialist",
   "repository": "github:fabiospampinato/specialist",
   "description": "A library that helps you write tiny, fast and beautiful CLI apps that can automatically check for updates.",
+  "license": "MIT",
   "version": "1.4.4",
   "type": "module",
   "main": "dist/index.js",
@@ -27,14 +28,14 @@
     "easy"
   ],
   "dependencies": {
-    "tiny-bin": "^1.10.2",
-    "tiny-colors": "^2.2.1",
-    "tiny-parse-argv": "^2.8.0",
-    "tiny-updater": "^3.5.2"
+    "tiny-bin": "^1.10.3",
+    "tiny-colors": "^2.2.2",
+    "tiny-parse-argv": "^2.8.1",
+    "tiny-updater": "^3.5.3"
   },
   "devDependencies": {
-    "@types/node": "^20.4.6",
-    "tsex": "^3.0.0",
-    "typescript": "^5.1.6"
+    "@types/node": "^18.19.74",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
